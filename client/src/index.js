@@ -2,15 +2,16 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 import App from "./App";
+import "./assets/scss/style.scss";
 import * as serviceWorker from "./serviceWorker";
 import "react-toastify/dist/ReactToastify.css";
 require("dotenv").config();
 
 ReactDOM.render(
-    <Router>
-        <App />
-    </Router>,
-    document.getElementById("root")
+	<Router>
+		<App />
+	</Router>,
+	document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change
