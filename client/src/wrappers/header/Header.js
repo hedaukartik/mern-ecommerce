@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import IconGroup from "../../components/header/IconGroup";
+import MobileMenu from "../../components/header/MobileMenu";
 
 const Header = ({ layout, headerPaddingClass, headerBgClass }) => {
 	const [scroll, setScroll] = useState(0);
@@ -69,7 +70,7 @@ const Header = ({ layout, headerPaddingClass, headerBgClass }) => {
 				getActiveState={getActiveState}
 			/> */}
 			{/* mobile menu */}
-			{/* <MobileMenu /> */}
+			<MobileMenu />
 		</header>
 	);
 };
