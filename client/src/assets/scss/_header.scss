@@ -1166,6 +1166,7 @@
 						display: block;
 						padding: 0 20px;
 						margin-left: 0px;
+
 						a {
 							color: #333;
 							display: block;
@@ -1181,7 +1182,7 @@
 							&::before {
 								background: $theme-color none repeat scroll 0 0;
 								border-radius: 50%;
-								content: "";
+								list-style: none;
 								height: 7px;
 								left: 15px;
 								opacity: 0;
