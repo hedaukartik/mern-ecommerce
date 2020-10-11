@@ -6,6 +6,7 @@ import Activation from "./components/Activation";
 import ForgetPassword from "./components/ForgetPassword";
 import SignIn from "./components/SignIn";
 import Header from "./wrappers/header/Header";
+import HomeLayout from "./layouts/HomeLayout";
 
 function App() {
 	return (
@@ -16,7 +17,7 @@ function App() {
 			</MetaTags>
 			<Header layout="container-fluid" />
 			<Switch>
-				<Route exact path="/" />
+				<Route exact path="/" component={HomeLayout} />
 				<Route exact path="/signup" component={SignUp} />
 				<Route exact path="/signin" component={SignIn} />
 				<Route
