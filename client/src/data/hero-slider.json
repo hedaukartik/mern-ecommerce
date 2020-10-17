@@ -3,12 +3,12 @@
 		"image": "assets/images/slider/slider-5.jpg",
 		"title": "Welcome to Ecom",
 		"subtitle": "30% off Summer Vacation",
-		"url": "http://localhost:3000/shop"
+		"url": "/shop"
 	},
 	{
 		"image": "assets/images/slider/slider-5-1.jpg",
 		"title": "Smart Products",
 		"subtitle": "40% off Summer Vacation",
-		"url": "http://localhost:3000/shop"
+		"url": "/shop"
 	}
 ]
