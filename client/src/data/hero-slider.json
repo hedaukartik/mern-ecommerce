@@ -10,5 +10,11 @@
 		"title": "Smart Products",
 		"subtitle": "40% off Summer Vacation",
 		"url": "/shop"
+	},
+	{
+		"image": "assets/images/slider/slider-5.jpg",
+		"title": "Kartik Hedau",
+		"subtitle": "No Discount",
+		"url": "/shop"
 	}
 ]

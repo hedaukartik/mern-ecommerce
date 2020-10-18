@@ -7,7 +7,7 @@ import ForgetPassword from "./components/ForgetPassword";
 import SignIn from "./components/SignIn";
 import Header from "./wrappers/header/Header";
 import HomeLayout from "./layouts/HomeLayout";
-
+import Footer from "./wrappers/footer/Footer";
 function App() {
 	return (
 		<Fragment>
@@ -31,6 +31,7 @@ function App() {
 					component={ForgetPassword}
 				/>
 			</Switch>
+			<Footer spaceTopClass="pt-100" spaceBottomClass="pb-70" /> 
 		</Fragment>
 	);
 }

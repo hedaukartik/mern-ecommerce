@@ -2,7 +2,6 @@ import React from "react";
 import Swiper from "react-id-swiper";
 import heroSliderData from "../../data/hero-slider.json";
 import HeroSliderSingle from "../../components/hero-slider/HeroSliderSingle";
-//import "../../assets/scss/_slider.scss";
 
 const HeroSlider = () => {
 	const params = {
@@ -16,7 +15,7 @@ const HeroSlider = () => {
 		watchSlidesVisibility: true,
 		navigation: {
 			nextEl: ".swiper-button-next",
-			prevEl: ".swiper-button-prev",
+			prevEl: ".swiper-button-prev"
 		},
 		pagination: {
 			el: ".swiper-pagination", // little dots under the slides for navigation

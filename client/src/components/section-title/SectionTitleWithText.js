@@ -10,13 +10,10 @@ const SectionTitleWithText = ({ spaceTopClass, spaceBottomClass }) => {
 			<div className="container">
 				<div className="welcome-content text-center">
 					<h5>Who Are We</h5>
-					<h1>Welcome To Ecom</h1>
+					<h1>WE PROPOSE AND DISCUSS DESIGN RULES</h1>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing
-						elit, sed do eiusmod tempor incididunt labor et dolore
-						magna aliqua. Ut enim ad minim veniam, quis nostrud
-						exercitation ullamco laboris nisi ut aliquip ex ea commo
-						consequat irure{" "}
+					Metasurfaces are generally designed by placing scatterers in periodic or pseudo-periodic grids. We propose and discuss design rules for functional metasurfaces with randomly placed.
+					Anisotropic elements that randomly sample. Quisque sit amet nisl ante. Fusce lacinia non tellus id gravida. Cras neque dolor, volutpat et hendrerit et.{" "}
 					</p>
 				</div>
 			</div>
