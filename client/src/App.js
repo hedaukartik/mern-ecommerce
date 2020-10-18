@@ -8,6 +8,7 @@ import SignIn from "./components/SignIn";
 import Header from "./wrappers/header/Header";
 import HomeLayout from "./layouts/HomeLayout";
 import AboutLayout from "./layouts/AboutLayout";
+import ContactUsLayout from "./layouts/ContactUsLayout";
 import Footer from "./wrappers/footer/Footer";
 function App() {
 	return (
@@ -20,6 +21,7 @@ function App() {
 			<Switch>
 				<Route exact path="/" component={HomeLayout} />
 				<Route exact path="/about" component={AboutLayout} />
+				<Route exact path="/contact" component={ContactUsLayout} />
 				<Route exact path="/signup" component={SignUp} />
 				<Route exact path="/signin" component={SignIn} />
 				<Route
