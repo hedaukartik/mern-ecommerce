@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import IconGroup from "../../components/header/IconGroup";
+import MobileMenu from "../../components/header/MobileMenu";
+import OffcanvasMenu from "../../components/header/OffcanvasMenu";
+import "../../assets/scss/_header.scss";
 
 const Header = ({ layout, headerPaddingClass, headerBgClass }) => {
 	const [scroll, setScroll] = useState(0);
@@ -50,7 +53,7 @@ const Header = ({ layout, headerPaddingClass, headerBgClass }) => {
 						{/* header logo */}
 						<div className="logo text-center logo-hm5">
 							<Link className="sticky-none" to="/">
-								<img alt="" src="assets/images/logo.png" />
+								<img alt="" src="assets/images/logo-2.png" />
 							</Link>
 							<Link className="sticky-block" to="/">
 								<img alt="" src="assets/images/logo.png" />
@@ -64,12 +67,12 @@ const Header = ({ layout, headerPaddingClass, headerBgClass }) => {
 				</div>
 			</div>
 			{/* offcanvas menu */}
-			{/* <OffcanvasMenu
+			<OffcanvasMenu
 				activeState={offcanvasActive}
 				getActiveState={getActiveState}
-			/> */}
+			/>
 			{/* mobile menu */}
-			{/* <MobileMenu /> */}
+			<MobileMenu />
 		</header>
 	);
 };

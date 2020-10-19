@@ -14,16 +14,21 @@
         "jsonwebtoken": "^8.5.1",
         "lightgallery": "^1.8.3",
         "node-sass": "^4.14.1",
+        "owl.carousel": "^2.3.4",
         "react": "^16.13.1",
+        "react-bootstrap": "^1.3.0",
+        "react-breadcrumbs-dynamic": "^1.2.1",
         "react-dom": "^16.13.1",
         "react-facebook-login": "^4.1.1",
         "react-google-login": "^5.1.21",
+        "react-id-swiper": "^4.0.0",
+        "react-mailchimp-subscribe": "^2.1.0",
         "react-meta-tags": "^0.7.4",
         "react-router-dom": "^5.2.0",
         "react-scripts": "3.4.3",
         "react-scroll": "^1.8.1",
         "react-toastify": "^6.0.8",
-        "swiper": "^6.3.2"
+        "swiper": "^5.3.8"
     },
     "scripts": {
         "start": "react-scripts start",
