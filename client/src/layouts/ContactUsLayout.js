@@ -8,7 +8,7 @@ import ContactUsForm from "../components/contact-us/ContactUsForm";
 const ContactUsLayout = ({ location }) => {
     const { pathname } = location;
     const layoutName = 'contact us';
-    const bgImageUrl = 'assets/images/breadcrumb/about.jpg';
+    const bgImageUrl = 'assets/images/breadcrumb/contact-us.jpg';
 	return (
 		<Fragment>
 			<MetaTags>

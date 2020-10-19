@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 const AboutUsContact = () => {
 	const bgImageUrl = "assets/images/about/about-contact.jpg";
 	return (
+		
 		<div
 			className={`about-us-contact pt-130 pb-130`}
 			style={{

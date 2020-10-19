@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 import { BreadcrumbsProvider } from "react-breadcrumbs-dynamic";
+import ScrollToTop from "./helpers/scroll-top";
 import App from "./App";
 import "./assets/scss/style.scss";
 import * as serviceWorker from "./serviceWorker";
@@ -11,7 +12,9 @@ require("dotenv").config();
 ReactDOM.render(
 	<BreadcrumbsProvider>
 		<Router>
-			<App />
+			<ScrollToTop>
+				<App />
+			</ScrollToTop>
 		</Router>
 	</BreadcrumbsProvider>,
 	document.getElementById("root")

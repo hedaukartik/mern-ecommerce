@@ -24,7 +24,7 @@ const ImageSlider = () => {
 	};
 
 	return (
-		<div className="image-slider-area">
+		<div className="image-slider-area mb-90">
 			<div className="image-slider-active">
 				<Swiper {...settings}>
 					{imageData &&

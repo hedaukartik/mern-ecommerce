@@ -10,7 +10,7 @@ const Breadcrumb = ({ layoutName, bgImageUrl }) => {
 				backgroundImage: `url(${bgImageUrl})`,
 				backgroundRepeat: "no-repeat",
 				backgroundSize: "cover",
-				backgroundPosition: "top center",
+				backgroundPosition: "center center",
 			}}
 		>
 			<div className="container">

@@ -4,7 +4,7 @@ import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
 import Breadcrumb from "../wrappers/breadcrumb/Breadcrumb";
 import AboutUsOne from "../components/about-us/AboutUsOne";
 import AboutUsContact from "../components/about-us/AboutUsContact"
-
+import AboutUsServices from '../components/about-us/AboutUsServices'
 
 const AboutLayout = ({ location }) => {
     const { pathname } = location;
@@ -24,6 +24,7 @@ const AboutLayout = ({ location }) => {
             <Breadcrumb layoutName={layoutName} bgImageUrl={bgImageUrl}/>
             <AboutUsOne />
             <AboutUsContact />
+			<AboutUsServices />
 		</Fragment>
 	);
 };

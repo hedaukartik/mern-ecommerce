@@ -7,9 +7,9 @@ const HeroSlider = () => {
 	const params = {
 		effect: "fade",
 		loop: true,
-		speed: 1000,
+		speed: 500,
 		autoplay: {
-			delay: 5000,
+			delay: 2500,
 			disableOnInteraction: false,
 		},
 		watchSlidesVisibility: true,
